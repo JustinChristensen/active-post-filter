@@ -1,18 +1,17 @@
 {
   "name": "active_post_filter",
+  "description": "Active Post Filter",
   "private": true,
   "version": "1.0.0",
-  "description": "Active Post Filter",
-  "main": "gulpfile.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:wroathe/afteractive-post-filter.git"
+    "url": "git@github.com:JustinChristensen/active-post-filter.git"
   },
   "author": "Justin Christensen <wroathe@gmail.com>",
   "contributors": [
@@ -25,7 +24,8 @@
       "email": "matt@netcandy.co"
     }
   ],
-  "license": "GPLv3",
+  "license": "GPL-3.0+",
   "devDependencies": {
+    "mocha": "2.2.1"
   }
 }

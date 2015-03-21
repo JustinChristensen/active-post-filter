@@ -1,24 +1,23 @@
 {
     "name": "active_post_filter",
+    "description": "Active Post Filter",
     "private": true,
-    "version": "1.0.0",
+    "license": "GPL-3.0+",
     "authors": [
         "Justin Christensen <wroathe@gmail.com>",
         "Matthew Hunt <matt@afteractive.com>",
         "Matt Kaye <matt@netcandy.co>"
     ],
-    "description": "Active Post Filter",
-    "main": "gulpfile.js",
     "moduleType": [
         "amd",
-        "es6",
         "globals"
     ],
-    "license": "GPLv3",
     "ignore": [
         "**/.*",
         "node_modules",
         "bower_components",
+        "src",
+        "tasks",
         "test",
         "tests"
     ]

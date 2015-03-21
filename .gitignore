@@ -1,5 +1,9 @@
 *.sublime-*
+
 css/
-node_modules/
 bower_components/
 dist/
+
+node_modules/
+src/vendor/
+src/assets/bower_components/
