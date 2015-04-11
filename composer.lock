@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cbfb32cd7392471581a3970dc2f5f55f",
+    "hash": "dc2f8b62e03795713ad6b53b197f9555",
     "packages": [
         {
             "name": "zordius/lightncandy",
@@ -1008,6 +1008,16 @@
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
             "time": "2015-03-12 10:28:44"
+        },
+        {
+            "name": "wordpress-develop",
+            "version": "4.1.1",
+            "source": {
+                "type": "svn",
+                "url": "http://develop.svn.wordpress.org/",
+                "reference": "tags/4.1.1/"
+            },
+            "type": "library"
         }
     ],
     "aliases": [],

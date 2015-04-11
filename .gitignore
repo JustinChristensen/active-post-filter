@@ -1,9 +1,12 @@
 *.sublime-*
+.DS_Store
 
 css/
 bower_components/
 dist/
+wordpress-develop/
 
 node_modules/
 src/vendor/
 src/assets/bower_components/
+tmp

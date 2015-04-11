@@ -11,10 +11,28 @@
     "config": {
         "vendor-dir": "src/vendor"
     },
+    "scripts": {
+        "test": "phpunit"
+    },
     "require": {
         "zordius/lightncandy": "0.20.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "4.5.0"
-    }
+        "phpunit/phpunit": "4.5.0",
+        "wordpress-develop": "4.1.1"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress-develop",
+                "version": "4.1.1",
+                "source": {
+                    "url": "http://develop.svn.wordpress.org/",
+                    "type": "svn",
+                    "reference": "tags/4.1.1/"
+                }
+            }
+        }
+    ]
 }

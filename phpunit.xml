@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="test/phpunit/include/bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite>
+            <directory>test/phpunit/tests</directory>
+        </testsuite>
+    </testsuites>
+    <groups>
+    </groups>
+    <logging>
+        <log type="junit" target="tmp/logfile.xml" />
+        <log type="coverage-html" target="tmp/report" />
+    </logging>
+</phpunit>
